@@ -1,6 +1,7 @@
 import torch
 from torch import Tensor, LongTensor
-from torch.tensor import _TensorBase
+#from torch.tensor import _TensorBase
+from torch._C import _TensorBase
 from torch.autograd import Variable
 from torch.nn.parameter import Parameter
 from torch.nn.modules.module import Module

@@ -105,7 +105,7 @@ class UpperDiagonalThresholdedLogTransform:
         self.nu = nu
 
     def __call__(self, dgm):
-        if dgm.ndimension() == 0:
+        if dgm.ndimension() == 0 or dgm.nelement() == 0:  # MODIFIED
             return dgm
 
         if dgm.is_cuda:
@@ -118,7 +118,19 @@ class UpperDiagonalThresholdedLogTransform:
         y = torch.sum(y, 1).squeeze()
         i = (y <= self.nu)
         y[i] = torch.log(y[i] / self.nu) + self.nu
-        ret = torch.stack([x, y], 1)
+
+        #### MODIFIED:        ####
+        if x.nelement() == 1:
+            x = torch.tensor([x.item()])
+
+        if y.nelement() == 1:
+            y = torch.tensor([y.item()])
+
+        c = [x, y]
+        ret = torch.stack(c, 1)
+
+        ####################
+
         return ret
 
 
@@ -191,7 +203,7 @@ class SLayerPHT(Module):
 
 def reduce_essential_dgm(dgm):
 
-    if dgm.ndimension() == 0:
+    if dgm.ndimension() == 0 or dgm.nelement() == 0:
         return dgm
     else:
         return dgm[:, 0].contiguous().view(-1, 1)

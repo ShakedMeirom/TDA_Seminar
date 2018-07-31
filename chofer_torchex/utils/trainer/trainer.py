@@ -5,6 +5,7 @@ from torch.optim import Optimizer
 from torch.utils.data import DataLoader
 from typing import Callable
 from torch import Tensor
+from torch._C import _TensorBase   # MODIFIED
 
 
 
@@ -113,10 +114,10 @@ class Trainer(object):
                 loss = self.criterion(batch_output, target_var)
                 loss.backward()
 
-                assert len(loss.data) == 1
+                assert loss.item()  # assert len(loss.data) == 1  # Modified
                 self.events.post_batch_backward(self._get_default_event_kwargs(),
                                                 batch_output=batch_output,
-                                                loss=float(loss.data[0]))
+                                                loss=float(loss.item()))    # Modified  : loss.data[0]
 
                 return loss
 
@@ -142,7 +143,7 @@ class Trainer(object):
         tensor_cast = Tensor.cuda if self.cuda else Tensor.cpu
 
         def cast(x):
-            if isinstance(x, torch.tensor._TensorBase):
+            if isinstance(x, _TensorBase):    # MODIFIED # torch.tensor._TensorBase
                 return tensor_cast(x)
             elif isinstance(x, list):
                 return [cast(v) for v in x]
