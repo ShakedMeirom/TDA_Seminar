@@ -1,0 +1,615 @@
+Epoch 1/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 34.03 %
+Epoch 2/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 34.53 %
+Epoch 3/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 38.56 %
+Epoch 4/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 39.40 %
+Epoch 5/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 39.65 %
+Epoch 6/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 40.49 %
+Epoch 7/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 40.23 %
+Epoch 8/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 36.46 %
+Epoch 9/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 39.65 %
+Epoch 10/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 41.49 %
+Epoch 11/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 37.38 %
+Epoch 12/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 42.83 %
+Epoch 13/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 40.65 %
+Epoch 14/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 42.50 %
+Epoch 15/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 39.48 %
+Epoch 16/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 37.38 %
+Epoch 17/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 40.49 %
+Epoch 18/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 40.82 %
+Epoch 19/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 39.65 %
+lr -> 0.05
+Epoch 20/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 42.92 %
+Epoch 21/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 42.75 %
+Epoch 22/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 41.91 %
+Epoch 23/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 42.83 %
+Epoch 24/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.50 %
+Epoch 25/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 41.24 %
+Epoch 26/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 42.67 %
+Epoch 27/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.84 %
+Epoch 28/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 41.66 %
+Epoch 29/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 41.66 %
+Epoch 30/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.50 %
+Epoch 31/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.50 %
+Epoch 32/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.92 %
+Epoch 33/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 42.75 %
+Epoch 34/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.01 %
+Epoch 35/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 42.33 %
+Epoch 36/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 41.66 %
+Epoch 37/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 42.50 %
+Epoch 38/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.50 %
+Epoch 39/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 41.58 %
+lr -> 0.025
+Epoch 40/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.59 %
+Epoch 41/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.25 %
+Epoch 42/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.68 %
+Epoch 43/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.01 %
+Epoch 44/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.34 %
+Epoch 45/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.67 %
+Epoch 46/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.92 %
+Epoch 47/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.01 %
+Epoch 48/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 41.91 %
+Epoch 49/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.34 %
+Epoch 50/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.17 %
+Epoch 51/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.84 %
+Epoch 52/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.01 %
+Epoch 53/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.25 %
+Epoch 54/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 42.92 %
+Epoch 55/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.93 %
+Epoch 56/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.43 %
+Epoch 57/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 42.58 %
+Epoch 58/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.93 %
+Epoch 59/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.60 %
+lr -> 0.0125
+Epoch 60/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.59 %
+Epoch 61/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.68 %
+Epoch 62/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.43 %
+Epoch 63/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.01 %
+Epoch 64/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.67 %
+Epoch 65/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 66/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.59 %
+Epoch 67/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.26 %
+Epoch 68/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.43 %
+Epoch 69/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.76 %
+Epoch 70/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.84 %
+Epoch 71/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.59 %
+Epoch 72/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 73/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.17 %
+Epoch 74/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.18 %
+Epoch 75/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.18 %
+Epoch 76/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.10 %
+Epoch 77/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 42.92 %
+Epoch 78/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 42.16 %
+Epoch 79/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.43 %
+lr -> 0.00625
+Epoch 80/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.76 %
+Epoch 81/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.68 %
+Epoch 82/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.01 %
+Epoch 83/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.34 %
+Epoch 84/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.84 %
+Epoch 85/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.68 %
+Epoch 86/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.84 %
+Epoch 87/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.34 %
+Epoch 88/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.10 %
+Epoch 89/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.34 %
+Epoch 90/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 91/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.92 %
+Epoch 92/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.01 %
+Epoch 93/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 94/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.76 %
+Epoch 95/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.18 %
+Epoch 96/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.43 %
+Epoch 97/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.50 %
+Epoch 98/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.25 %
+Epoch 99/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.59 %
+lr -> 0.003125
+Epoch 100/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.93 %
+Epoch 101/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.25 %
+Epoch 102/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.01 %
+Epoch 103/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.93 %
+Epoch 104/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.43 %
+Epoch 105/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.92 %
+Epoch 106/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.10 %
+Epoch 107/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.17 %
+Epoch 108/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.10 %
+Epoch 109/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.59 %
+Epoch 110/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.43 %
+Epoch 111/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.93 %
+Epoch 112/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.17 %
+Epoch 113/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.43 %
+Epoch 114/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.43 %
+Epoch 115/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.17 %
+Epoch 116/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.34 %
+Epoch 117/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.01 %
+Epoch 118/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.67 %
+Epoch 119/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.01 %
+lr -> 0.0015625
+Epoch 120/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.26 %
+Epoch 121/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.09 %
+Epoch 122/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 123/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.09 %
+Epoch 124/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 125/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 126/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.09 %
+Epoch 127/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.50 %
+Epoch 128/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.93 %
+Epoch 129/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.18 %
+Epoch 130/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.59 %
+Epoch 131/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.84 %
+Epoch 132/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.09 %
+Epoch 133/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.18 %
+Epoch 134/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.68 %
+Epoch 135/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.84 %
+Epoch 136/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.84 %
+Epoch 137/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.17 %
+Epoch 138/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 42.16 %
+Epoch 139/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.26 %
+lr -> 0.00078125
+Epoch 140/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.17 %
+Epoch 141/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.76 %
+Epoch 142/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.10 %
+Epoch 143/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.76 %
+Epoch 144/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 145/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.35 %
+Epoch 146/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.59 %
+Epoch 147/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.34 %
+Epoch 148/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.01 %
+Epoch 149/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.76 %
+Epoch 150/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.67 %
+Epoch 151/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 152/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.59 %
+Epoch 153/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.35 %
+Epoch 154/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.52 %
+Epoch 155/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.84 %
+Epoch 156/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.84 %
+Epoch 157/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.43 %
+Epoch 158/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 159/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.59 %
+lr -> 0.000390625
+Epoch 160/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.10 %
+Epoch 161/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.26 %
+Epoch 162/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.76 %
+Epoch 163/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.76 %
+Epoch 164/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.34 %
+Epoch 165/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.34 %
+Epoch 166/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.84 %
+Epoch 167/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.59 %
+Epoch 168/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.76 %
+Epoch 169/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.92 %
+Epoch 170/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.92 %
+Epoch 171/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.17 %
+Epoch 172/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.34 %
+Epoch 173/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.84 %
+Epoch 174/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.84 %
+Epoch 175/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.09 %
+Epoch 176/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.84 %
+Epoch 177/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.84 %
+Epoch 178/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.76 %
+Epoch 179/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.26 %
+lr -> 0.0001953125
+Epoch 180/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.43 %
+Epoch 181/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.59 %
+Epoch 182/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.92 %
+Epoch 183/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.84 %
+Epoch 184/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.59 %
+Epoch 185/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.84 %
+Epoch 186/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.60 %
+Epoch 187/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.35 %
+Epoch 188/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.84 %
+Epoch 189/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.59 %
+Epoch 190/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.09 %
+Epoch 191/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.84 %
+Epoch 192/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.76 %
+Epoch 193/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.84 %
+Epoch 194/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.43 %
+Epoch 195/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.34 %
+Epoch 196/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.92 %
+Epoch 197/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.17 %
+Epoch 198/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.76 %
+Epoch 199/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.01 %
+lr -> 9.765625e-05
+Epoch 200/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.59 %
+Epoch 201/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.68 %
+Epoch 202/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.10 %
+Epoch 203/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.01 %
+Epoch 204/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.34 %
+Epoch 205/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.34 %
+Epoch 206/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.84 %
+Epoch 207/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 42.83 %
+Epoch 208/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.76 %
+Epoch 209/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.26 %
+Epoch 210/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.93 %
+Epoch 211/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.93 %
+Epoch 212/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.84 %
+Epoch 213/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.42 %
+Epoch 214/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 215/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.43 %
+Epoch 216/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.76 %
+Epoch 217/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.43 %
+Epoch 218/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.59 %
+Epoch 219/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.26 %
+lr -> 4.8828125e-05
+Epoch 220/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.34 %
+Epoch 221/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.68 %
+Epoch 222/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.76 %
+Epoch 223/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.67 %
+Epoch 224/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.93 %
+Epoch 225/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.43 %
+Epoch 226/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.76 %
+Epoch 227/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.76 %
+Epoch 228/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.76 %
+Epoch 229/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.76 %
+Epoch 230/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.09 %
+Epoch 231/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.10 %
+Epoch 232/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.09 %
+Epoch 233/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.10 %
+Epoch 234/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.93 %
+Epoch 235/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.01 %
+Epoch 236/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.18 %
+Epoch 237/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.76 %
+Epoch 238/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 239/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.93 %
+lr -> 2.44140625e-05
+Epoch 240/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.76 %
+Epoch 241/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.26 %
+Epoch 242/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.67 %
+Epoch 243/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.76 %
+Epoch 244/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.18 %
+Epoch 245/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.17 %
+Epoch 246/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 247/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.18 %
+Epoch 248/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.34 %
+Epoch 249/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.43 %
+Epoch 250/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.84 %
+Epoch 251/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.84 %
+Epoch 252/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.93 %
+Epoch 253/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.09 %
+Epoch 254/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.08 %
+Epoch 255/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 256/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 257/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.76 %
+Epoch 258/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.84 %
+Epoch 259/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.52 %
+lr -> 1.220703125e-05
+Epoch 260/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.43 %
+Epoch 261/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.10 %
+Epoch 262/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.18 %
+Epoch 263/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.34 %
+Epoch 264/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.09 %
+Epoch 265/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.59 %
+Epoch 266/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.59 %
+Epoch 267/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.59 %
+Epoch 268/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.01 %
+Epoch 269/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.01 %
+Epoch 270/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.76 %
+Epoch 271/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.17 %
+Epoch 272/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.00 %
+Epoch 273/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.67 %
+Epoch 274/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.34 %
+Epoch 275/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.01 %
+Epoch 276/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.01 %
+Epoch 277/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.76 %
+Epoch 278/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.59 %
+Epoch 279/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+lr -> 6.103515625e-06
+Epoch 280/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.68 %
+Epoch 281/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.00 %
+Epoch 282/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.34 %
+Epoch 283/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.43 %
+Epoch 284/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.01 %
+Epoch 285/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.26 %
+Epoch 286/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.68 %
+Epoch 287/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.43 %
+Epoch 288/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.17 %
+Epoch 289/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.43 %
+Epoch 290/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.59 %
+Epoch 291/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 42.25 %
+Epoch 292/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 293/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 45.01 %
+Epoch 294/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.68 %
+Epoch 295/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.26 %
+Epoch 296/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.84 %
+Epoch 297/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.51 %
+Epoch 298/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.50 %
+Epoch 299/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 43.50 %
+lr -> 3.0517578125e-06
+Epoch 300/300 Batch 84/84 (100.00 %)
+testing... Accuracy: 44.84 %

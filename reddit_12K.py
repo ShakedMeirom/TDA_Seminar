@@ -3,6 +3,8 @@ if __name__ == '__main__':
     import sys
     import numpy as np
     import time
+    from Original_Accuracy_test import accuracy_test
+    from high_persistence_test import high_persistence_test
 
     # ensure chofer_torchex and pershombox are available
     cwd = os.getcwd()
@@ -38,15 +40,6 @@ if __name__ == '__main__':
 
     print('Starting experiment...')
 
-    accuracies = []
-    n_runs = 5
-    for i in range(1, n_runs + 1):
-        print('Start run {}'.format(i))
-        result = experiment(provider_path)
-        accuracies.append(result)
+    high_persistence_test(experiment, provider_path)
+    accuracy_test(experiment, provider_path)
 
-    with open(os.path.join(os.path.dirname(__file__), 'result_reddit12K.txt'), 'w') as f:
-        for i, r in enumerate(accuracies):
-            f.write('Run {}: {}\n'.format(i, r))
-        f.write('\n')
-        f.write('mean: {}\n'.format(np.mean(accuracies)))

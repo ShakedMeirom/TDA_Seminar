@@ -12,7 +12,7 @@ from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.preprocessing.label import LabelEncoder
 from collections import defaultdict
 from torch.nn import Module
-from chofer_torchex.nn import SLayer
+from chofer_torchex.nn import SLayer, SLayer_Conv
 
 
 class PersistenceDiagramProviderCollate:

@@ -10,25 +10,9 @@ from ..sharedCode.experiments import train_test_from_dataset, \
     pers_dgm_center_init, \
     reduce_essential_dgm
 
-from chofer_torchex.nn import SLayer
+from chofer_torchex.nn import SLayer, SLayer_Conv
 import chofer_torchex.utils.trainer as tr
 from chofer_torchex.utils.trainer.plugins import *
-
-
-
-def _parameters():
-    return \
-    {
-        'data_path': None,
-        'epochs': 300,
-        'momentum': 0.5,
-        'lr_start': 0.1,
-        'lr_ep_step': 20,
-        'lr_adaption': 0.5,
-        'test_ratio': 0.1,
-        'batch_size': 128,
-        'cuda': False
-    }
 
 
 def _data_setup(params):
@@ -51,18 +35,37 @@ def _data_setup(params):
     return data_train, data_test, subscripted_views
 
 
+def remove_low_persistence_points(dgms, persistence_threshold_percentage):
+    # calculate mean persistance:
+    mean_persistance = np.mean([point[1] - point[0] for dgm in dgms for point in dgm])
+
+    # calculate persistance threshold
+    persistence_threshold = mean_persistance * persistence_threshold_percentage
+
+    # exclude points which have less than average persistance:
+    dgms = [
+        torch.tensor([point.numpy() for point in dgm if (point[1].item() - point[0].item() > persistence_threshold)])
+        for dgm in dgms]
+
+    return dgms
+
+
 class MyModel(torch.nn.Module):
-    def __init__(self, subscripted_views):
+    def __init__(self, subscripted_views, persistence_threshold=0, cur_SLayer=SLayer):
         super(MyModel, self).__init__()
         self.subscripted_views = subscripted_views
+        self.persistence_threshold = persistence_threshold
         self.transform = UpperDiagonalThresholdedLogTransform(0.1)
 
         def get_init(n_elements):
             return self.transform(pers_dgm_center_init(n_elements))
 
-        self.dim_0 = SLayer(150, 2, get_init(150), torch.ones(150, 2) * 3)
-        self.dim_0_ess = SLayer(50, 1)
-        self.dim_1_ess = SLayer(50, 1)
+        slayer_params = {"centers_init": get_init(150), "sharpness_init": (torch.ones(150, 2) * 3),
+                         "sharpness_mult_init": (torch.ones(150, 1) * 3)}
+
+        self.dim_0 = cur_SLayer(150, 2, slayer_params)
+        self.dim_0_ess = cur_SLayer(50, 1)
+        self.dim_1_ess = cur_SLayer(50, 1)
         self.slayers = [self.dim_0,
                         self.dim_0_ess,
                         self.dim_1_ess
@@ -101,10 +104,23 @@ class MyModel(torch.nn.Module):
     def forward(self, batch):
         x = [batch[n] for n in self.subscripted_views]
 
+        # exclude points with low persistence:
+        if self.persistence_threshold > 0:
+            x[0] = remove_low_persistence_points(x[0], self.persistence_threshold)
+
+        # DegreeVertexFiltration_dim_0 :
+        d_0 = [self.transform(dgm) for dgm in x[0]]
+
+        # DegreeVertexFiltration_dim_0_essential:
+        d_e_0 = [reduce_essential_dgm(dgm) for dgm in x[1]]
+
+        # DegreeVertexFiltration_dim_1_essential:
+        d_e_1 = [reduce_essential_dgm(dgm) for dgm in x[2]]
+
         x = [
-            [self.transform(dgm) for dgm in x[0]],
-            [reduce_essential_dgm(dgm) for dgm in x[1]],
-            [reduce_essential_dgm(dgm) for dgm in x[2]]
+            d_0,
+            d_e_0,
+            d_e_1
         ]
 
         x_sl = [l(xx) for l, xx in zip(self.slayers, x)]
@@ -118,10 +134,10 @@ class MyModel(torch.nn.Module):
         return x
 
 
-def _create_trainer(model, params, data_train, data_test):
-    optimizer = optim.SGD(model.parameters(),
-                          lr=params['lr_start'],
-                          momentum=params['momentum'])
+def _create_trainer(model, params, data_train, data_test, optimizer):
+    optimizer = optimizer(model.parameters(),
+                          lr=params['lr_start'])
+    # momentum=params['momentum']
 
     loss = nn.CrossEntropyLoss()
 
@@ -154,8 +170,9 @@ def _create_trainer(model, params, data_train, data_test):
     return trainer
 
 
-def experiment(data_path):
-    params = _parameters()
+def experiment(data_path, parameters, accuracy_per_epoch=False, persistence_threshold=0, slayer=SLayer,
+               optimizer=optim.SGD):
+    params = parameters()
     params['data_path'] = data_path
 
     if torch.cuda.is_available():
@@ -165,14 +182,17 @@ def experiment(data_path):
     data_train, data_test, subscripted_views = _data_setup(params)
 
     print('Create model...')
-    model = MyModel(subscripted_views)
+    model = MyModel(subscripted_views, persistence_threshold, cur_SLayer=slayer)
 
     print('Setup trainer...')
-    trainer = _create_trainer(model, params, data_train, data_test)
+    trainer = _create_trainer(model, params, data_train, data_test, optimizer)
     print('Starting...')
     trainer.run()
 
-    last_10_accuracies = list(trainer.prediction_monitor.accuracies.values())[-10:]
-    mean = np.mean(last_10_accuracies)
+    if not accuracy_per_epoch:
+        last_10_accuracies = list(trainer.prediction_monitor.accuracies.values())[-10:]
+        mean = np.mean(last_10_accuracies)
+        return mean
+    else:
+        return list(trainer.prediction_monitor.accuracies.values())
 
-    return mean
